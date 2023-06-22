@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monzù - Gastronomia Italiana</title>
+    <style>
+       *{
+        background-color: lightgray;
+        margin: auto;
+        padding: auto;
+       }
+       header{
+        max-width: 100%;
+        height: 90px;
+        background: black;
+        position: sticky;
+        top: 0%;
+       }
+       .logo img{
+        float:left;
+        width: 85px;
+        margin: 4px 20px;
+       }
+       .icones{
+        background-color: black;
+        float: left;
+        margin: 30px 10px;
+        width: 150px;
+       }
+       .icones img{
+        color: white;
+        background-color: black;
+        margin: 4px 10px;
+        width: 25px;
+       }
+       .barrapesquisa{
+        background-color: black;
+        float: left;
+        margin: 30px 0px;
+        width: 400px;
+        height: 30px;
+       }
+       .barrapesquisa input{
+        border-radius: 30px;
+        border: none;
+        width: 400px;
+        height: 30px;
+       }
+       .titulo img{
+        float: right;
+        background: black;
+        margin: 5px 10px;
+        padding: 2px 15px;
+        width: 185px;
+       }
+       p{
+        color: white;
+        background: black;
+        font-size: 38px;
+       }
+       nav{
+        max-width: 100%;
+        height: 50px;
+        background: black;
+       }
+       ul li{
+        list-style: none;
+        display: inline;
+        margin: 15px 45px;
+        letter-spacing: 2px;
+        float: left;
+        text-align: center;
+        color: white;
+        background-color: black;
+       }
+       main{
+        max-width: 100%;
+        height: 1500px;
+        background: white;
+       }
+       footer{
+        max-width: 100%;
+        height: 100px;
+        background: black;
+       }
+          
+    </style>
+</head>
+<body>
+
+<header>
+    <!--imagem logo-->
+    <div class="logo">
+        <a href="inicial.html"><img src="imagem/mmonzu.png" alt="m monzu"></a>
+    </div>
+    <!--imagem icones-->
+    <div class="icones">
+        <img src="imagem/profile.png" alt="login">
+        <img src="imagem/cart.png" alt="carrinho">
+        <img src="imagem/search.png" alt="pesquisar">
+    </div>
+    <!--barra de pesquisa-->
+    <div class="barrapesquisa">
+        <input id="seachbar" type="text" name="searchbar" placeholder="Pesquisar" onekeyup="search()">
+    </div>
+   <!--imagem texto-->
+    <div class="titulo">
+        <a href="inicial.html"><img src="imagem/monzulogo.jpg" alt="logo"></a>
+    </div>
+</header><hr>
+
+<nav>
+    <ul>
+        <!--ideia de abas para o menu. tentar afastar um pouco mais as palavras-->
+        <li>Home</li>
+        <li>Pratos</li>
+        <li>Nossa História</li>
+        <li>Serviços</li>
+        <li>Contato</li>
+    </ul>
+</nav>
+<hr>
+<main></main>
+<footer></footer>
+</body>
+</html>
